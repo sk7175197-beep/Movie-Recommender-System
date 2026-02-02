@@ -1,10 +1,10 @@
 # 🎬 Movie Recommendation System
 
-A content-based Movie Recommendation System built using Python and Streamlit.
-It recommends similar movies using cosine similarity and displays posters using the TMDB API.
-The application is fully deployed and accessible via a live public URL.
+A content-based Machine Learning Movie Recommendation System developed using Python. The system recommends similar movies by analyzing movie features and computing similarity scores using cosine similarity.
 
-Note: Hosted on Render free tier, the first load may take a few seconds if the service is idle.
+📌 Domain
+
+Machine Learning – Recommendation Systems
 
 ## How It Works:
 - Uses content-based filtering
@@ -15,26 +15,22 @@ Note: Hosted on Render free tier, the first load may take a few seconds if the s
 
 ## Tech Stack:
 - Python
-- Streamlit
+- NumPy
 - Pandas
 - Pickle
 - TMDB API
-- Google Drive (for large pkl files)
-- Render (deployment)
+- Cosine Similarity
 
-## Project Structure:
+📁 Project Structure
+
 Movie_recommendation/
-├── app.py              # Main Streamlit application
+├── app.py
+├── requirements.txt
+├── setup.sh
+├── Procfile
+├── .gitignore
+└── README.md
 
-├── requirements.txt    # Project dependencies
-
-├── setup.sh            # Render setup script
-
-├── Procfile            # Start command for deployment
-
-├── .gitignore          # Ignored files (pkl, venv, etc.)
-
-└── README.md           # Project documentation
 
 ## Installation (Run Locally):
 1. Clone the repository
@@ -52,30 +48,19 @@ Movie_recommendation/
 4. Run the app
    - streamlit run app.py
 
-## Handling Large Files:
-- movies.pkl and similarity.pkl are not stored on GitHub
-- Files are downloaded automatically from Google Drive at runtime
-- This avoids GitHub file size limits and ensures smooth deployment
-
-## API Key Note:
-- TMDB API is used to fetch movie posters
-- For production, the API key should be stored as an environment variable
-
 ## Features:
 - Movie selection dropdown
 - Top 5 similar movie recommendations
 - Dynamic movie posters
-- Error handling for API/network failures
-- Cloud deployment with automatic rebuilds
 
 ## Future Improvements:
 - Add movie ratings and overview
-- Improve UI/UX
+-Hybrid recommendation system
 - Add collaborative filtering
-- User authentication
-- Cache recommendations
 
-## Acknowledgements:
-- TMDB for movie data and posters
-- Streamlit for the framework
-- Render for free cloud deployment
+👩‍💻 Author:
+-Sakshi Jha
+
+-B.Tech CSE (2nd Year)
+
+-Shobhit University, Meerut
