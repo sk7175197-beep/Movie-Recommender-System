@@ -4,9 +4,6 @@ A content-based Movie Recommendation System built using Python and Streamlit.
 It recommends similar movies using cosine similarity and displays posters using the TMDB API.
 The application is fully deployed and accessible via a live public URL.
 
-## Live Demo:
-https://movie-recommend-22je0149.onrender.com/
-
 Note: Hosted on Render free tier, the first load may take a few seconds if the service is idle.
 
 ## How It Works:
@@ -41,7 +38,7 @@ Movie_recommendation/
 
 ## Installation (Run Locally):
 1. Clone the repository
-   - git clone https://github.com/anuraggupta9/Movie_recommendation.git
+   - git clone https://github.com/sk7175197-beep/Movie-Recommender-Systemn.git
    - cd Movie_recommendation
 
 2. Create virtual environment
@@ -77,11 +74,6 @@ Movie_recommendation/
 - Add collaborative filtering
 - User authentication
 - Cache recommendations
-
-## Author:
-- Anurag Kumar
-- Integrated Mtech(Btech+Mtech) (Mathematics & Computing)
-- IIT (ISM) Dhanbad
 
 ## Acknowledgements:
 - TMDB for movie data and posters
