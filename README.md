@@ -58,9 +58,8 @@ Movie_recommendation/
 -Hybrid recommendation system
 - Add collaborative filtering
 
-👩‍💻 Author:
--Sakshi Jha
+## 👩‍💻 Author
+**Sakshi Jha**  
+🎓 B.Tech CSE (2nd Year)  
+🏫 Shobhit University, Meerut
 
--B.Tech CSE (2nd Year)
-
--Shobhit University, Meerut
